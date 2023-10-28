@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body,.page{
+    height: 100%;
+    width: 100%;
+}
+.page{ display: flex;
+    & nav{
+        height: 8%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+/* background-color: antiquewhite; */
+padding: 0 3vw;
+        & .left{
+            display: flex;
+            align-items: center;
+            gap: 1vw;
+            & img{
+                height: 47px;
+            }
+            & h1{
+                font-size: 1.1vw;
+                font-weight: 600;
+            }
+        }
+        .right{
+            display: flex; gap: 2.3vw;
+            & h1{
+font-size: 1.2vw;
+            }
+        }
+    }
+    .left-side{
+        height: 100%;
+        width: 50%;
+        & h1{
+            padding-top: 8vw;
+            padding-left: 5vw;
+            font-size: 4.2vw;
+            & span{
+                color: #289E8A;
+            }
+        }
+        & h4{
+            padding-left: 4vw;
+            margin-top: 22px;
+            font-size: 1.3vw;
+            & span{
+                /* height: 40px;
+                width: 40px; */
+                margin-right: 1.5vw;
+                padding: 12px 12px;
+                border-radius: 50%;
+                background-color: #289E8A;
+                color: aliceblue;
+            }
+        } 
+        & button{
+            padding: 27px 36px;
+            font-size: 1vw;
+            margin-top: 4vw;
+            margin-left: 4vw;
+            color: aliceblue;
+            background-color: #289E8A;
+            border: none;
+        }
+        & p{
+            margin-top: 3vw;
+            margin-left: 4vw;
+            font-size: 1vw;
+        }
+    }
+    .right-side{
+        height: 100%;
+        width: 50%;
+        background-color: #A5DED4;
+        & img{
+            height: 100%;
+            width: 100%;
+            /* object-fit: cover; */
+            /* object-position: center; */
+        }
+     
+        }
+    }
+
+
